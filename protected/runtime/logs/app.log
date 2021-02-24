@@ -1,0 +1,429 @@
+2020-12-30 01:28:39 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:134
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:28:39 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:135
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:28:39 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:136
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:28:39 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:139
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:28:39 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:140
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:28:39 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:141
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:28:39 [154.160.9.242][-][-][info][application] $_GET = [
+    'r' => 'installer/index'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '50.116.51.136'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at 50.116.51.136 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => '50.116.51.136'
+    'SERVER_ADDR' => '50.116.51.136'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '154.160.9.242'
+    'DOCUMENT_ROOT' => '/var/www/sesa'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/sesa'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/sesa/index.php'
+    'REMOTE_PORT' => '24354'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=installer%2Findex'
+    'REQUEST_URI' => '/index.php?r=installer%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1609291719.535
+    'REQUEST_TIME' => 1609291719
+]
+2020-12-30 01:28:39 [154.160.9.242][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\log\DbTarget: Exception (Database Exception) 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' 
+
+in /var/www/sesa/protected/vendor/yiisoft/yii2/db/Connection.php:642
+
+Stack trace:
+#0 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Connection.php(1030): yii\db\Connection->open()
+#1 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Connection.php(1017): yii\db\Connection->getMasterPdo()
+#2 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Schema.php(462): yii\db\Connection->getSlavePdo()
+#3 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Connection.php(909): yii\db\Schema->quoteValue('application')
+#4 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Command.php(211): yii\db\Connection->quoteValue('application')
+#5 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Command.php(1117): yii\db\Command->getRawSql()
+#6 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Command.php(1082): yii\db\Command->logQuery('yii\\db\\Command:...')
+#7 /var/www/sesa/protected/vendor/yiisoft/yii2/log/DbTarget.php(93): yii\db\Command->execute()
+#8 /var/www/sesa/protected/vendor/yiisoft/yii2/log/Target.php(158): yii\log\DbTarget->export()
+#9 /var/www/sesa/protected/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\log\Target->collect(Array, true)
+#10 /var/www/sesa/protected/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#11 [internal function]: yii\log\Logger->flush(true)
+#12 {main}
+2020-12-30 01:28:39 [154.160.9.242][-][-][info][application] $_GET = [
+    'r' => 'installer/index'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '50.116.51.136'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at 50.116.51.136 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => '50.116.51.136'
+    'SERVER_ADDR' => '50.116.51.136'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '154.160.9.242'
+    'DOCUMENT_ROOT' => '/var/www/sesa'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/sesa'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/sesa/index.php'
+    'REMOTE_PORT' => '24354'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=installer%2Findex'
+    'REQUEST_URI' => '/index.php?r=installer%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1609291719.535
+    'REQUEST_TIME' => 1609291719
+]
+2020-12-30 01:29:05 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:134
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:29:05 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:135
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:29:05 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:136
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:29:05 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:139
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:29:05 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:140
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:29:05 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:141
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:29:05 [154.160.9.242][-][-][info][application] $_GET = [
+    'r' => 'installer/setup/prerequisites'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '50.116.51.136'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://50.116.51.136/index.php?r=installer%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2323748726d8a0618a73623715a180388be6abe5c7f8d3f3f74adb754ac33c0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22e-awcxL6aqf8gg1AeFAIUdhkSDPJ4_OT%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at 50.116.51.136 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => '50.116.51.136'
+    'SERVER_ADDR' => '50.116.51.136'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '154.160.9.242'
+    'DOCUMENT_ROOT' => '/var/www/sesa'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/sesa'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/sesa/index.php'
+    'REMOTE_PORT' => '24360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=installer%2Fsetup%2Fprerequisites'
+    'REQUEST_URI' => '/index.php?r=installer%2Fsetup%2Fprerequisites'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1609291745.279
+    'REQUEST_TIME' => 1609291745
+]
+2020-12-30 01:29:05 [154.160.9.242][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\log\DbTarget: Exception (Database Exception) 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' 
+
+in /var/www/sesa/protected/vendor/yiisoft/yii2/db/Connection.php:642
+
+Stack trace:
+#0 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Connection.php(1030): yii\db\Connection->open()
+#1 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Connection.php(1017): yii\db\Connection->getMasterPdo()
+#2 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Schema.php(462): yii\db\Connection->getSlavePdo()
+#3 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Connection.php(909): yii\db\Schema->quoteValue('application')
+#4 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Command.php(211): yii\db\Connection->quoteValue('application')
+#5 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Command.php(1117): yii\db\Command->getRawSql()
+#6 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Command.php(1082): yii\db\Command->logQuery('yii\\db\\Command:...')
+#7 /var/www/sesa/protected/vendor/yiisoft/yii2/log/DbTarget.php(93): yii\db\Command->execute()
+#8 /var/www/sesa/protected/vendor/yiisoft/yii2/log/Target.php(158): yii\log\DbTarget->export()
+#9 /var/www/sesa/protected/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\log\Target->collect(Array, true)
+#10 /var/www/sesa/protected/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#11 [internal function]: yii\log\Logger->flush(true)
+#12 {main}
+2020-12-30 01:29:05 [154.160.9.242][-][-][info][application] $_GET = [
+    'r' => 'installer/setup/prerequisites'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '50.116.51.136'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://50.116.51.136/index.php?r=installer%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2323748726d8a0618a73623715a180388be6abe5c7f8d3f3f74adb754ac33c0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22e-awcxL6aqf8gg1AeFAIUdhkSDPJ4_OT%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at 50.116.51.136 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => '50.116.51.136'
+    'SERVER_ADDR' => '50.116.51.136'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '154.160.9.242'
+    'DOCUMENT_ROOT' => '/var/www/sesa'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/sesa'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/sesa/index.php'
+    'REMOTE_PORT' => '24360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=installer%2Fsetup%2Fprerequisites'
+    'REQUEST_URI' => '/index.php?r=installer%2Fsetup%2Fprerequisites'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1609291745.279
+    'REQUEST_TIME' => 1609291745
+]
+2020-12-30 01:30:49 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:134
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:30:49 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:135
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:30:49 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:136
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:30:49 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:139
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:30:49 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:140
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:30:49 [154.160.9.242][-][-][error][application] Could not resize site icon: Your system does not support any of these drivers: gmagick,imagick,gd2
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:80
+    in /var/www/sesa/protected/humhub/modules/web/pwa/widgets/SiteIcon.php:141
+    in /var/www/sesa/protected/humhub/modules/ui/view/components/View.php:277
+2020-12-30 01:30:49 [154.160.9.242][-][-][info][application] $_GET = [
+    'r' => 'installer/setup/prerequisites'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '50.116.51.136'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://50.116.51.136/index.php?r=installer%2Fsetup%2Fprerequisites'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2323748726d8a0618a73623715a180388be6abe5c7f8d3f3f74adb754ac33c0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22e-awcxL6aqf8gg1AeFAIUdhkSDPJ4_OT%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at 50.116.51.136 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => '50.116.51.136'
+    'SERVER_ADDR' => '50.116.51.136'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '154.160.9.242'
+    'DOCUMENT_ROOT' => '/var/www/sesa'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/sesa'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/sesa/index.php'
+    'REMOTE_PORT' => '24366'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=installer%2Fsetup%2Fprerequisites'
+    'REQUEST_URI' => '/index.php?r=installer%2Fsetup%2Fprerequisites'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1609291849.418
+    'REQUEST_TIME' => 1609291849
+]
+2020-12-30 01:30:49 [154.160.9.242][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\log\DbTarget: Exception (Database Exception) 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' 
+
+in /var/www/sesa/protected/vendor/yiisoft/yii2/db/Connection.php:642
+
+Stack trace:
+#0 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Connection.php(1030): yii\db\Connection->open()
+#1 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Connection.php(1017): yii\db\Connection->getMasterPdo()
+#2 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Schema.php(462): yii\db\Connection->getSlavePdo()
+#3 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Connection.php(909): yii\db\Schema->quoteValue('application')
+#4 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Command.php(211): yii\db\Connection->quoteValue('application')
+#5 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Command.php(1117): yii\db\Command->getRawSql()
+#6 /var/www/sesa/protected/vendor/yiisoft/yii2/db/Command.php(1082): yii\db\Command->logQuery('yii\\db\\Command:...')
+#7 /var/www/sesa/protected/vendor/yiisoft/yii2/log/DbTarget.php(93): yii\db\Command->execute()
+#8 /var/www/sesa/protected/vendor/yiisoft/yii2/log/Target.php(158): yii\log\DbTarget->export()
+#9 /var/www/sesa/protected/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\log\Target->collect(Array, true)
+#10 /var/www/sesa/protected/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#11 [internal function]: yii\log\Logger->flush(true)
+#12 {main}
+2020-12-30 01:30:49 [154.160.9.242][-][-][info][application] $_GET = [
+    'r' => 'installer/setup/prerequisites'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '50.116.51.136'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://50.116.51.136/index.php?r=installer%2Fsetup%2Fprerequisites'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2323748726d8a0618a73623715a180388be6abe5c7f8d3f3f74adb754ac33c0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22e-awcxL6aqf8gg1AeFAIUdhkSDPJ4_OT%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at 50.116.51.136 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => '50.116.51.136'
+    'SERVER_ADDR' => '50.116.51.136'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '154.160.9.242'
+    'DOCUMENT_ROOT' => '/var/www/sesa'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/sesa'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/sesa/index.php'
+    'REMOTE_PORT' => '24366'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=installer%2Fsetup%2Fprerequisites'
+    'REQUEST_URI' => '/index.php?r=installer%2Fsetup%2Fprerequisites'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1609291849.418
+    'REQUEST_TIME' => 1609291849
+]
+2021-01-07 22:26:05 [162.158.62.156][-][93803112tl92r8da4ss2k53476][error][Swift_TransportException] Swift_TransportException: Connection could not be established with host smtp.mailgun.org [Connection timed out #110] in /var/www/sesa/protected/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:280
+Stack trace:
+#0 /var/www/sesa/protected/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /var/www/sesa/protected/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /var/www/sesa/protected/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /var/www/sesa/protected/vendor/yiisoft/yii2-swiftmailer/Mailer.php(146): Swift_Mailer->send(Object(Swift_Message))
+#4 /var/www/sesa/protected/humhub/components/mail/Mailer.php(117): yii\swiftmailer\Mailer->sendMessage(Object(humhub\components\mail\Message))
+#5 /var/www/sesa/protected/vendor/yiisoft/yii2/mail/BaseMailer.php(263): humhub\components\mail\Mailer->sendMessage(Object(humhub\components\mail\Message))
+#6 /var/www/sesa/protected/vendor/yiisoft/yii2/mail/BaseMessage.php(49): yii\mail\BaseMailer->send(Object(humhub\components\mail\Message))
+#7 /var/www/sesa/protected/humhub/modules/user/models/Invite.php(151): yii\mail\BaseMessage->send()
+#8 /var/www/sesa/protected/humhub/modules/user/models/Invite.php(125): humhub\modules\user\models\Invite->sendInviteMail()
+#9 /var/www/sesa/protected/humhub/modules/user/controllers/AuthController.php(98): humhub\modules\user\models\Invite->selfInvite()
+#10 [internal function]: humhub\modules\user\controllers\AuthController->actionLogin()
+#11 /var/www/sesa/protected/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/sesa/protected/vendor/yiisoft/yii2/base/Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/sesa/protected/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#14 /var/www/sesa/protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/auth/login', Array)
+#15 /var/www/sesa/protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#16 /var/www/sesa/index.php(25): yii\base\Application->run()
+#17 {main}
+2021-01-07 22:25:35 [162.158.62.156][-][93803112tl92r8da4ss2k53476][info][application] $_GET = [
+    'r' => 'user/auth/login'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'timeout.social'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_CF_IPCOUNTRY' => 'GH'
+    'HTTP_X_FORWARDED_FOR' => '154.160.18.32'
+    'HTTP_CF_RAY' => '60e118729dcec863-EWR'
+    'CONTENT_LENGTH' => '175'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CF_VISITOR' => '{\"scheme\":\"http\"}'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://timeout.social'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://timeout.social/index.php?r=user%2Fauth%2Flogin'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '__cfduid=df638c075d6c3549695671a30beffc93b1610055176; _csrf=284efdb1b1603c6aec47bae029ad586f24e73d362791bfc9acfbd3fc3db8db62a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZFo7LXccofYLRN0K0_IbrKsQbJrf_lUS%22%3B%7D; PHPSESSID=93803112tl92r8da4ss2k53476'
+    'HTTP_CF_REQUEST_ID' => '07808d9b9c0000c863bc88d000000001'
+    'HTTP_CF_CONNECTING_IP' => '154.160.18.32'
+    'HTTP_CDN_LOOP' => 'cloudflare'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at timeout.social Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'timeout.social'
+    'SERVER_ADDR' => '50.116.51.136'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '162.158.62.156'
+    'DOCUMENT_ROOT' => '/var/www/sesa'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/sesa'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/sesa/index.php'
+    'REMOTE_PORT' => '9522'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fauth%2Flogin'
+    'REQUEST_URI' => '/index.php?r=user%2Fauth%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1610058335.177
+    'REQUEST_TIME' => 1610058335
+]
